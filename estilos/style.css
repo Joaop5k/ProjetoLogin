@@ -29,7 +29,7 @@ main {
 }
 
 section#login {
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,6 +63,7 @@ section#login > div#form {
 }
 
 div#form > h1 {
+    display: block;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -77,13 +78,18 @@ input#enter {
 }
 
 span {
-    width: 20px;
+    width: 17px;
 }
 input#ilogin, input#isenha{
 
+    
     width: 30%;
     height: 20px;
     
+}
+
+label.white, span {
+    color: white;
 }
 
 form > div.campo {
