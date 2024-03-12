@@ -12,8 +12,9 @@ Desktop : 992px até 1200px
         background-image: linear-gradient(to top, #f988ff, #bc4ed8);
         width: 100vw;
     }
+
     section#login {
-        width: 80vw;
+        width: 100vw;
     }
 
     section#login > div#imagem{
@@ -26,12 +27,15 @@ Desktop : 992px até 1200px
         float: right;
         width: 70%;
     }
+
+    
+   
 }
 
 @media screen and (min-width: 992px){
     body{
         background-image: linear-gradient(to top, #f988ff, #bc4ed8);
-        
+        width: 100vw;
     }
     section#login {
         width: 990px;
@@ -49,5 +53,14 @@ Desktop : 992px até 1200px
         height: 100%;
     }
 
-    
+    form > input[type=submit] {
+        display: block;
+        width: 35vw;
+        height: 40px;
+        background-color: #f05bf8;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
 }
