@@ -6,7 +6,7 @@ Tablet : 768px até 992px
 Desktop : 992px até 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 950px){
+@media screen and (min-width: 768px) and (max-width: 800px){
 
     body{
         background-image: linear-gradient(to top, #f988ff, #bc4ed8);
@@ -40,6 +40,7 @@ Desktop : 992px até 1200px
 }
 
 @media screen and (min-width: 800px){
+   
     body{
         background-image: linear-gradient(to top, #f988ff, #bc4ed8);
         width: 100vw;
@@ -50,18 +51,26 @@ Desktop : 992px até 1200px
 
     section#login > div#imagem{
         float: right;
-        width: 50%;
+        width: 30%;
         height: 100%;
+    }
+
+    input#ilogin, input#isenha{
+        width:30vw;
+        height: 20px;
+        
     }
 
 
     section#login > div#form{
         float: left;
-        width: 50%;
+        width: 30%;
         height: 10%;
     }
 
     form > input[type=submit] {
+        position: absolute;
+        text-align: center;
         display: block;
         width: 40vw;
         height: 45px;
@@ -73,6 +82,7 @@ Desktop : 992px até 1200px
 }
 
 form {
+    text-align: center;
     display: block;
         width: 40vw;
         height: 45px;
@@ -80,5 +90,25 @@ form {
         border: none;
         border-radius: 5px;
         cursor: pointer;
+}
+
+form > p > a.botao {
+    display: block;
+    width: 40vw;
+    height: 40px;
+    color: rgb(17, 0, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid#f05bf8;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+form > p > a.botao:hover {
+    color: #4b0027;
 }
 }
